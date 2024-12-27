@@ -1,0 +1,243 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+nav{
+    height: 70px;
+    width: 100vw;
+    background-color: rgb(50, 53, 66);
+    color: white;
+}
+nav a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+.flex1{
+    height: 100%;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+.flex2{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+.explore{
+    margin-left: 43%;
+    padding: 13px;
+    background-color: rgb(47, 107, 185);
+    font-size:26px ;
+    font-weight: 600;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+}
+.intro{
+    width: 430px;
+    margin-top: 110px;
+    margin-left: 80px;
+}
+.side-info{
+    margin-top: 50px;
+    width: 500px;
+    position: absolute;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #b8b8b883;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#feedback{
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    width: 100px;
+    padding: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.hide{
+    display: none;
+}
+#feedback2 button{
+    padding: 6px 17px;
+    margin-top: 10px;
+    background-color: rgb(51, 80, 94);
+    border-radius: 4px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.container1{
+    height: 250px ;
+    width: 100%;
+    margin-top: -10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container1 iframe{
+    height:99%;
+    width: 24.5%;
+}
+.container2{
+    height: 350px ;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.container3{
+    height: 300px ;
+    width: 600px;
+    margin-top: -10px;
+}
+.container4{
+    height: 300px;
+    width: 800px;
+    margin-top: -10px;
+    display: flex;
+    justify-content: space-between;
+}
+.container4 iframe{
+    height: 99%;
+    width: 49%;
+}
+.container5{
+    height: 450px ;
+    width: 100%;
+    position: relative;
+    top: 20px;
+}
+.container6{
+    height: 300px ;
+    width: 90vw;
+    margin-top: -10px;
+    display: flex;
+    justify-content: space-between;
+}
+.next-btn{
+    position: relative;
+    top: 50px;
+    margin-left: 43%;
+    padding: 13px;
+    background-color: rgba(0, 60, 255, 0.582);
+    border: 2px solid black;
+    font-size:26px ;
+    font-weight: 600;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+}
+.ent-main {
+    min-height: 180vh;
+    display: flex;
+    flex-direction: column;
+    width: 92%;
+    margin: auto;
+}
+.sports-btn {
+    width: 120px;
+    margin-top: 40px;
+    margin-left: 43%;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 13px;
+    background-color: #337386;
+    border: 2px solid black;
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.sports-main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+.champions-trophy{
+    height: 50vh;
+}
+.ctflex{
+    display: flex;
+    justify-content: space-between;
+}
+.champions-trophy h2, .football-cricket h2, .others h2 {
+    margin-bottom: 10px;
+}
+.champions-trophy img{
+    object-fit: cover;
+}
+.background{
+    margin-top: 30px;
+    padding: 10px;
+    border: 1px solid #000000;
+    background-color: #ffffff3f;
+    border-radius: 6px;
+}
+.background2{
+    border: 1px solid #a3a3a3;
+    background-color: #ffffff38;
+    border-radius: 6px;
+    padding: 0px 10px;
+}
+.ct-back{
+    border: 1px solid #717570a1;
+    background-color: #8288823d;
+    border-radius: 6px;
+    padding: 0px 10px;
+}
+.cricket-back{
+    height: 400px;
+    width: 900px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f950;
+    border-radius: 7px;
+    padding: 10px;
+}
+.others-back{
+    height: 350px;
+    width: 99%;
+    border: 1px solid #ccc;
+    background-color: #f9f9f949;
+    border-radius: 7px;
+    padding: 10px;
+}
+.mintro{
+    height: 70vh;
+    width: 70vw;
+    background-color: rgba(86, 116, 116, 0.274);
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 80px;
+    justify-content: space-evenly;
+}
+.mintro p{
+    font-weight: 600;
+    font-size: 20px;
+    word-spacing: 7px;
+    width: 400px;
+    height: 170px;
+    margin: 100px;
+}
+.contact-div a{
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #ffffff5d;
+    padding: 11px;
+    font-weight: 600;
+    border-radius: 18px;
+}
