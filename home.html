@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            background-image: url("download.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="flex1">
+            <div>
+                <a href="home.html">The Newsroom</a>
+            </div>
+            <div class="flex2">
+                <a href="highlights.html">News</a>
+
+                <a href="#">Entertainment</a>
+
+                <a href="sports.html">Sports </a>
+
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+    </nav>
+    <div class="main-home" style="height: 75vh; width: 100vw; display: flex;">
+        <div class="intro">
+            <h1 style="font-size: 45px;"> THE NEWSROOM</h1>
+            <p style="font-size: 24px; width: 420px;">Welcome to The Newsroom , this website is by <span style="font-weight:600;">Muhammad Mujtaba Raza</span> from <span style="font-weight:600;">Bsdsf24a026</span>.</p>
+        </div>
+        <div class="icon" style="margin-top: 140px; margin-left: 60px;"> <img src="images.png" alt="icon" style="mix-blend-mode: multiply; height:150px;"></div>
+        <div class="side-info">
+            <ul>
+                <li>Get updated on current events from around the world instantly.</li>
+                <li>Stay informed with real-time news alerts and updates every hour.</li>
+                <li>Explore news by topic including politics sports business and more.</li>
+                <li>Read expert opinions and in-depth analysis on current events daily.</li>
+                <li>Watch videos of news events interviews and expert analysis online.</li>
+                <li>Search and read past news articles and stories from archives easily.</li>
+                <li>Get daily or weekly newsletters with top news stories and updates.</li>
+                <li>Follow us on social media for news updates behind scenes and more.</li>
+                <li>Read opinions and editorials from experts and readers on current issues.</li>
+                <li>Participate in polls and surveys on current events and share opinions.</li>
+                <li>Get current weather conditions and forecasts for your local area daily.</li>
+                <li>Find news and events from your local community and neighborhood easily</li>
+                <li>Share news articles and stories with friends and family on social media.</li>
+                <li>Get live updates and scores of sports events and matches worldwide.</li>
+                <li>Read interviews and profiles of famous personalities and influencers.</li>
+                <li>Provide feedback and suggestions to improve our news coverage and services.</li>
+            </ul>
+            <div class="" id="feedback">Give Your FeedBack</div>
+            <div class="hide" id="feedback2">
+                <textarea placeholder="Please give your feedback" rows="7" style="width: 200px;"></textarea>
+                <button id="submit-feedback">Submit</button>
+            </div>
+        </div>
+    </div>
+    <a href="highlights.html" class="explore">Start Reading</a>
+    <script>
+        let feedback = document.querySelector("#feedback")
+        let feedback2 = document.querySelector("#feedback2");
+        let submitfeedback = document.querySelector("#submit-feedback");
+        
+        feedback.addEventListener("click", () => {
+            feedback2.classList.remove("hide");
+            feedback.classList.add("hide");
+        })
+        submitfeedback.addEventListener("click", () => {
+            alert("Thanks for your feedback")
+            feedback2.classList.add("hide");
+            feedback.classList.remove("hide");
+        })
+    </script>
+</body>
+
+</html>
